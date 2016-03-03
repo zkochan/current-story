@@ -1,0 +1,31 @@
+{
+  "name": "current-story",
+  "version": "0.0.0",
+  "description": "Fetch the Rally (CA Agile) story ID from the current branch name.",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/current-story"
+  },
+  "keywords": [
+    "ca",
+    "rally",
+    "story"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltan.kochan@gmail.com",
+    "url": "http://kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/current-story/issues"
+  },
+  "homepage": "https://github.com/zkochan/current-story#readme",
+  "dependencies": {
+    "git-rev": "^0.2.1"
+  }
+}
